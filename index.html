@@ -1,342 +1,381 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Material Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <!-- CSS File -->
-    <link rel="stylesheet" href="styles.css" />
-    <title>Youtube Clone with HTML & CSS</title>
-    <!-- <header class="header">.</header> -->      
-      
-  </head>
-  <body> 
 
-    <header class="header">
-        <div class="logo left">
-          <i id="menu" class="material-icons">menu</i>
-          <img src="https://www.freecodecamp.org/news/content/images/2022/01/yt-logo.png">
-        </div>
-        
-        <div class="search center">
-          <form action="">
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <!-- Material Icons -->
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+   <!-- CSS File -->
+   <link rel="stylesheet" href="styles.css" />
+   <title>Youtube Clone with HTML & CSS</title>
+   <!-- <header class="header">.</header> -->
+
+</head>
+
+<body>
+
+   <header class="header">
+      <div class="logo left">
+         <i id="menu" class="material-icons">menu</i>
+         <img src="https://www.freecodecamp.org/news/content/images/2022/01/yt-logo.png">
+      </div>
+
+      <div class="search center">
+         <form action="">
             <input type="text" placeholder="Search" />
             <button><i class="material-icons">search</i></button>
-          </form>
-          <i class="material-icons mic">mic</i>
-        </div>
-        
-        <div class="icons right">
-          <i class="material-icons">videocam</i>
-          <i class="material-icons">apps</i>
-          <i class="material-icons">notifications</i>
-          <i class="material-icons display-this">account_circle</i>
-        </div>
-    </header>
-       
-    <main>
-        <div class="side-bar"> 
-            <!-- <div class=”side-bar”> -->
-            <div class="nav">
+         </form>
+         <i class="material-icons mic">mic</i>
+      </div>
+
+      <div class="icons right">
+         <i class="material-icons">videocam</i>
+         <i class="material-icons">apps</i>
+         <i class="material-icons">notifications</i>
+         <i class="material-icons display-this">account_circle</i>
+      </div>
+   </header>
+
+   <main>
+      <div class="side-bar">
+         <!-- <div class=”side-bar”> -->
+         <div class="nav">
             <a class="nav-link active">
                <i class="material-icons">home</i>
                <span>Home</span>
             </a>
             <a class="nav-link">
-                <i class="material-icons">local_fire_department</i>
-                <span>Trending</span>
+               <i class="material-icons">local_fire_department</i>
+               <span>Trending</span>
             </a>
             <a class="nav-link">
-                <i class="material-icons">subscriptions</i>
-                <span>Subscriptions</span>
+               <i class="material-icons">subscriptions</i>
+               <span>Subscriptions</span>
             </a>
-            </div>
-            <hr>
-                 <!-- <div class="nav">     hr -->
-            <a class="nav-link">
-                <i class="material-icons">library_add_check</i>
-                <span>Library</span>
-            </a>
-            <a class="nav-link">
+         </div>
+         <hr>
+         <!-- <div class="nav">     hr -->
+         <a class="nav-link">
+            <i class="material-icons">library_add_check</i>
+            <span>Library</span>
+         </a>
+         <a class="nav-link">
             <i class="material-icons">history</i>
             <span>History</span>
-            </a>
-            <a class="nav-link">
-                   <i class="material-icons">play_arrow</i>
-              <span>Your Videos</span>
-            </a>
-            <a class="nav-link">
-                 <i class="material-icons">watch_later</i>
-                 <span>Watch Later</span>
-            </a>
-            <a class="nav-link">
-              <i class="material-icons">thumb_up</i>
-              <span>Liked Videos</span>
-            </a>
-            <!-- </div> -->
-        </div>             
+         </a>
+         <a class="nav-link">
+            <i class="material-icons">play_arrow</i>
+            <span>Your Videos</span>
+         </a>
+         <a class="nav-link">
+            <i class="material-icons">watch_later</i>
+            <span>Watch Later</span>
+         </a>
+         <a class="nav-link">
+            <i class="material-icons">thumb_up</i>
+            <span>Liked Videos</span>
+         </a>
+         <!-- </div> -->
+      </div>
 
-        <div class="content"> 
-            <div class="videos">
-                <!-- a video starts -->
-                <div class="video">
-                     <div class="thumbnail">
-                        <img src="https://i.ytimg.com/an_webp/qsbmjEQitmw/mqdefault_6s_480x270.webp?du=3000&sqp=CIjerpQG&rs=AOn4CLAuTeRLEplzx5kiH2VjwUE9rlDI-Q" alt="" />
-                        <!--https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg
-                        https://i.ytimg.com/vi/76LFfbF9rmk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLADLU1GyuXZve6NtsdI2vFmDSXEtw -->
-                      </div>
-              
-                        <div class="details">
-                           <div class="author">
-                              <img src="https://yt3.ggpht.com/ytc/AKedOLTWSuXvajlpkF0dcqa8Mf2Va5svzH7b9EC1x0Q7zA=s68-c-k-c0x00ffffff-no-rj" alt="" />
-                           </div>
-                           <div class="title">
-                              <h3>
-                                  Tom And Jerry Cartoon | Ab Kids
-                               </h3>
-                               <a href="">WB Kids </a>
-                                <span> 8.1M Views • £ Years Ago </span>
-                           </div>
-                         </div>
-              
-                       </div>
-                <div class="video">
-                        <div class="thumbnail">
-                           <img src="https://i.ytimg.com/an_webp/otkpUBKqCCQ/mqdefault_6s.webp?du=3000&sqp=CNDnrpQG&rs=AOn4CLAHGacAydS_cdPzMEQIGmFBAL2zfA" alt="" />
-                           <!--https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg
-                           https://i.ytimg.com/vi/76LFfbF9rmk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLADLU1GyuXZve6NtsdI2vFmDSXEtw -->
-                         </div>
-                 
-                           <div class="details">
-                              <div class="author">
-                                 <img src="https://yt3.ggpht.com/O12gYmCwBASezJpxddXOj1PEirMgxCGX2gOiJ3plomaK4E0K1hr_iobbQEWz1e4QVMflTmug=s68-c-k-c0x00ffffff-no-rj" alt="" />
-                              </div>
-                              <div class="title">
-                                 <h3>
-                                     Programming For Beginer | Apna College
-                                  </h3>
-                                  <a href="">Shradha Kumari </a>
-                                   <span> 2K Views • 8 Months Ago </span>
-                              </div>
-                            </div>              
-                        </div> 
-                <div class="video">
-                            <div class="thumbnail">
-                               <img src="https://i.ytimg.com/vi/1z3A73FlqlY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC3ozMEG4bZADfikxybrwylCNGa-g" alt="" />
-                               <!--https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg
-                               https://i.ytimg.com/vi/76LFfbF9rmk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLADLU1GyuXZve6NtsdI2vFmDSXEtw -->
-                             </div>
-                     
-                               <div class="details">
-                                  <div class="author">
-                                     <img src="https://yt3.ggpht.com/fwPrFFKR-qwPhozW9NGQZNO10xonYxvI7Kh9Ge5plKZNTQ_O1mosY89lXMO-4VJNtYTU02wv7ng=s68-c-k-c0x00ffffff-no-rj" alt="" />
-                                  </div>
-                                  <div class="title">
-                                     <h3>
-                                         Top Interview Question | ARC School
-                                      </h3>
-                                      <a href="">Sandeep Kumar </a>
-                                       <span> 460K Views • 3 Months Ago </span>
-                                  </div>
-                                </div>
-                     
-                        </div> 
-                <div class="video">
-                            <div class="thumbnail">
-                               <img src="https://i.ytimg.com/an_webp/c16EqtkZncM/mqdefault_6s.webp?du=3000&sqp=CJSKr5QG&rs=AOn4CLCiIbQbrFVdlBMyd6Dzzw18xk6zNA" alt="" />
-                               <!--https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg
-                               https://i.ytimg.com/vi/76LFfbF9rmk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLADLU1GyuXZve6NtsdI2vFmDSXEtw -->
-                             </div>
-                     
-                               <div class="details">
-                                  <div class="author">
-                                     <img src="https://yt3.ggpht.com/Xs4WpmS4jBmHeBc-kRjtOEFBQNaawrTsvpxrdQ3OjgCJfjsLZXYSlB3rNs6RxLmTiZcU2fGx7_o=s68-c-k-c0x00ffffff-no-rj" alt="" />
-                                  </div>
-                                  <div class="title">
-                                     <h3>
-                                         Project On JavaScript | MMI School
-                                      </h3>
-                                      <a href="">Thapa Thechnical </a>
-                                       <span> 6M Views • 6 Months Ago </span>
-                                  </div>
-                                </div>
-                     
-                    </div>  
-                <div class="video">
-                        <div class="thumbnail">
-                           <img src="https://i.ytimg.com/an_webp/Ji46s5BHdr0/mqdefault_6s.webp?du=3000&sqp=CKeFr5QG&rs=AOn4CLBMNxA2uOxs84wPqI4fWItCQwG0ww" alt="" />
-                           <!--https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg
-                           https://i.ytimg.com/vi/76LFfbF9rmk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLADLU1GyuXZve6NtsdI2vFmDSXEtw -->
-                         </div>
-                 
-                           <div class="details">
-                              <div class="author">
-                                 <img src="https://yt3.ggpht.com/ytc/AKedOLSA3Tow9_-RTNU6WslhjukZuknVu3JzcGiCMumw5g=s68-c-k-c0x00ffffff-no-rj" alt="" />
-                              </div>
-                              <div class="title">
-                                 <h3>
-                                     Tell Me About Yourself | Beginner
-                                  </h3>
-                                  <a href="">Shweta Tiwari </a>
-                                   <span> 1.1K Views • 25 Days Ago </span>
-                              </div>
-                            </div>
-                 
-                </div> 
-                <div class="video">
-                    <div class="thumbnail">
-                       <img src="https://i.ytimg.com/an_webp/iuS903EpycI/mqdefault_6s.webp?du=3000&sqp=CK7OrpQG&rs=AOn4CLDa7d_1q7GnlKq-RuN5S2myrZLpWA" alt="" />
-                       <!--https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg
-                       https://i.ytimg.com/vi/76LFfbF9rmk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLADLU1GyuXZve6NtsdI2vFmDSXEtw -->
-                     </div>
-             
-                       <div class="details">
-                          <div class="author">
-                             <img src="https://yt3.ggpht.com/ytc/AKedOLR4UEFyqiapn9HaZFy0f3rjU19ExmNRjZH-cKUsUw=s68-c-k-c0x00ffffff-no-rj" alt="" />
-                          </div>
-                          <div class="title">
-                             <h3>
-                              Newton School | Entrance Test Preparation
-                              </h3>
-                              <a href="">Kumar Nutan </a>
-                               <span> 80 Views • 2 Months Ago </span>
-                          </div>
-                        </div>
-             
-                      </div>
-               <div class="video">
-                       <div class="thumbnail">
-                          <img src="https://i.ytimg.com/an_webp/5plesRICYTI/mqdefault_6s.webp?du=3000&sqp=COKIr5QG&rs=AOn4CLA1bu2HhhjwmFPbQ0mOhD48pRLfDw" alt="" />
-                          <!--https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg
-                          https://i.ytimg.com/vi/76LFfbF9rmk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLADLU1GyuXZve6NtsdI2vFmDSXEtw -->
-                        </div>
-                
-                          <div class="details">
-                             <div class="author">
-                                <img src="https://yt3.ggpht.com/yti/APfAmoHC8NxHOjeRL0lPWBSxI4BrA3GdLPzzvmcR0zT8inc=s88-c-k-c0x00ffffff-no-rj-mo" alt="" />
-                             </div>
-                             <div class="title">
-                                <h3>
-                                    JavaScript Learning | Open School
-                                 </h3>
-                                 <a href="">CodeWithHarry </a>
-                                  <span> 1M Views • 5 Months Ago </span>
-                             </div>
-                           </div>              
-                       </div> 
-               <div class="video">
-                           <div class="thumbnail">
-                              <img src="https://i.ytimg.com/an_webp/oD5J1a3XU48/mqdefault_6s.webp?du=3000&sqp=CKLgrpQG&rs=AOn4CLC4h1MrJ63cI7Zo8LjE6IuDCP1S0Q" alt="" />
-                              <!--https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg
-                              https://i.ytimg.com/vi/76LFfbF9rmk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLADLU1GyuXZve6NtsdI2vFmDSXEtw -->
-                            </div>
-                    
-                              <div class="details">
-                                 <div class="author">
-                                    <img src="https://yt3.ggpht.com/Yy09nKUAprlICWXCB8mzYMpN788eYnwTcxbgG0gOc_yxdINpdUP4iPQK_f5r3xsjN7LIq933WQ=s68-c-k-c0x00ffffff-no-rj" alt="" />
-                                 </div>
-                                 <div class="title">
-                                    <h3>
-                                        TCS Campus Interview Preparation
-                                     </h3>
-                                     <a href="">Arvind Singh </a>
-                                      <span> 90K Views • 3 Months Ago </span>
-                                 </div>
-                               </div>
-                    
-                       </div> 
-               <div class="video">
-                           <div class="thumbnail">
-                              <img src="https://i.ytimg.com/vi/0icUmmd9CjQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCBqg7wMxlq9MM2oHs179bTDZSpYg" alt="" />
-                              <!--https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg
-                              https://i.ytimg.com/vi/76LFfbF9rmk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLADLU1GyuXZve6NtsdI2vFmDSXEtw -->
-                            </div>
-                    
-                              <div class="details">
-                                 <div class="author">
-                                    <img src="https://yt3.ggpht.com/yti/APfAmoHC8NxHOjeRL0lPWBSxI4BrA3GdLPzzvmcR0zT8inc=s88-c-k-c0x00ffffff-no-rj-mo" alt="" />
-                                 </div>
-                                 <div class="title">
-                                    <h3>
-                                        Three Things Never Share to Anyone | Dr.APJ Kalam
-                                     </h3>
-                                     <a href="">Spread Positivity </a>
-                                      <span> 2M Views • 1 Months Ago </span>
-                                 </div>
-                               </div>
-                    
-                   </div>  
-               <div class="video">
-                       <div class="thumbnail">
-                          <img src="https://i.ytimg.com/vi/M4iHa7gHvNI/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCoIG425Uh_K_MVMG9UDcuppkcVPw" alt="" />
-                          <!--https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg
-                          https://i.ytimg.com/vi/76LFfbF9rmk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLADLU1GyuXZve6NtsdI2vFmDSXEtw -->
-                        </div>
-                
-                          <div class="details">
-                             <div class="author">
-                                <img src="https://yt3.ggpht.com/UjKc54x7sVzQ4KLlS5rgMI0DdLoaa4cFbFpsFsxLxcSXEbTWotIPvyCA63BjTddipDv8LQufiQ=s68-c-k-c0x00ffffff-no-rj" alt="" />
-                             </div>
-                             <div class="title">
-                                <h3>
-                                    Fullstack Web Development | Newton School
-                                 </h3>
-                                 <a href="">Sidharth Maheshwari </a>
-                                  <span> 5.2M Views • 9 Months Ago </span>
-                             </div>
-                           </div>
-                
+      <div class="content">
+         <div class="videos">
+            <!-- a video starts -->
+            <div class="video">
+               <div class="thumbnail">
+                  <img src="/images/gif.webp" alt="" />
+                  <!--https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg
+                                          https://i.ytimg.com/vi/76LFfbF9rmk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLADLU1GyuXZve6NtsdI2vFmDSXEtw -->
                </div>
-               <div class="video">
-                <div class="thumbnail">
-                   <img src="https://i.ytimg.com/vi/76LFfbF9rmk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLADLU1GyuXZve6NtsdI2vFmDSXEtw" alt="" />
-                   <!--https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg
-                   https://i.ytimg.com/vi/76LFfbF9rmk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLADLU1GyuXZve6NtsdI2vFmDSXEtw -->
-                 </div>
-         
-                   <div class="details">
-                      <div class="author">
-                         <img src="https://yt3.ggpht.com/yti/APfAmoHC8NxHOjeRL0lPWBSxI4BrA3GdLPzzvmcR0zT8inc=s88-c-k-c0x00ffffff-no-rj-mo" alt="" />
-                      </div>
-                      <div class="title">
-                         <h3>
-                             Fullstack Web Development | Newton School
-                          </h3>
-                          <a href="">Sushma Karpe </a>
-                           <span> 2M Views • 1 Months Ago </span>
-                      </div>
-                    </div>
-         
-            </div> 
-     
-    <div class="video">
-            <div class="thumbnail">
-               <img src="https://i.ytimg.com/vi/sdrZoDy-o-Q/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAcA3xyNbPC_XkAx76_BDjiZohK6A" alt="" />
-               <!--https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg
-               https://i.ytimg.com/vi/76LFfbF9rmk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLADLU1GyuXZve6NtsdI2vFmDSXEtw -->
-             </div>
-     
+
                <div class="details">
                   <div class="author">
-                     <img src="https://yt3.ggpht.com/VI0OvMwpPQPFGoHAQOHsvtEcFWg-_YzFBhoeohr2CRz1T21Ja4unTGte1Gz6TnDUgVX9wcOG=s68-c-k-c0x00ffffff-no-rj" alt="" />
+                     <img
+                        src="https://yt3.ggpht.com/ytc/AKedOLTWSuXvajlpkF0dcqa8Mf2Va5svzH7b9EC1x0Q7zA=s68-c-k-c0x00ffffff-no-rj"
+                        alt="" />
                   </div>
                   <div class="title">
                      <h3>
-                         How To Invest Salary For Good Return
-                      </h3>
-                      <a href="">Arvind Chopra </a>
-                       <span> 2M Views • 1 Months Ago </span>
+                        Inroduce Yourself with fluently
+                     </h3>
+                     <a href="">Sonam Niha </a>
+                     <span> 8.1M Views • 1 Years Ago </span>
                   </div>
-                </div>
-     
-    </div> 
-                 <!-- a video Ends -->
-            </div>           
-                      
-                          
-        </div>
-    </main>
-    
+               </div>
+
+            </div>
+            <div class="video">
+               <div class="thumbnail">
+                  <img src="/images/gif1.webp" alt="" />
+               </div>
+
+               <div class="details">
+                  <div class="author">
+                     <img
+                        src="https://yt3.ggpht.com/O12gYmCwBASezJpxddXOj1PEirMgxCGX2gOiJ3plomaK4E0K1hr_iobbQEWz1e4QVMflTmug=s68-c-k-c0x00ffffff-no-rj"
+                        alt="" />
+                  </div>
+                  <div class="title">
+                     <h3>
+                        Programming For Beginer | Apna College
+                     </h3>
+                     <a href="">Shradha Kumari </a>
+                     <span> 2K Views • 8 Months Ago </span>
+                  </div>
+               </div>
+            </div>
+            <div class="video">
+               <div class="thumbnail">
+                  <img
+                     src="https://i.ytimg.com/vi/1z3A73FlqlY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC3ozMEG4bZADfikxybrwylCNGa-g"
+                     alt="" />
+                  <!--https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg
+                                                 https://i.ytimg.com/vi/76LFfbF9rmk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLADLU1GyuXZve6NtsdI2vFmDSXEtw -->
+               </div>
+
+               <div class="details">
+                  <div class="author">
+                     <img
+                        src="https://yt3.ggpht.com/fwPrFFKR-qwPhozW9NGQZNO10xonYxvI7Kh9Ge5plKZNTQ_O1mosY89lXMO-4VJNtYTU02wv7ng=s68-c-k-c0x00ffffff-no-rj"
+                        alt="" />
+                  </div>
+                  <div class="title">
+                     <h3>
+                        Top Interview Question | ARC School
+                     </h3>
+                     <a href="">Sandeep Kumar </a>
+                     <span> 460K Views • 3 Months Ago </span>
+                  </div>
+               </div>
+
+            </div>
+            <div class="video">
+               <div class="thumbnail">
+                  <img src="/images/gif2.webp" alt="" />               
+               </div>
+
+               <div class="details">
+                  <div class="author">
+                     <img
+                        src="https://yt3.ggpht.com/Xs4WpmS4jBmHeBc-kRjtOEFBQNaawrTsvpxrdQ3OjgCJfjsLZXYSlB3rNs6RxLmTiZcU2fGx7_o=s68-c-k-c0x00ffffff-no-rj"
+                        alt="" />
+                  </div>
+                  <div class="title">
+                     <h3>
+                        Project On JavaScript | MMI School
+                     </h3>
+                     <a href="">Thapa Thechnical </a>
+                     <span> 6M Views • 6 Months Ago </span>
+                  </div>
+               </div>
+
+            </div>
+            <div class="video">
+               <div class="thumbnail">
+                  <img
+                     src="https://i.ytimg.com/an_webp/Ji46s5BHdr0/mqdefault_6s.webp?du=3000&sqp=CKeFr5QG&rs=AOn4CLBMNxA2uOxs84wPqI4fWItCQwG0ww"
+                     alt="" />
+                  <!--https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg
+                                             https://i.ytimg.com/vi/76LFfbF9rmk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLADLU1GyuXZve6NtsdI2vFmDSXEtw -->
+               </div>
+
+               <div class="details">
+                  <div class="author">
+                     <img
+                        src="https://yt3.ggpht.com/ytc/AKedOLSA3Tow9_-RTNU6WslhjukZuknVu3JzcGiCMumw5g=s68-c-k-c0x00ffffff-no-rj"
+                        alt="" />
+                  </div>
+                  <div class="title">
+                     <h3>
+                        Tell Me About Yourself | Beginner
+                     </h3>
+                     <a href="">Shweta Tiwari </a>
+                     <span> 1.1K Views • 25 Days Ago </span>
+                  </div>
+               </div>
+
+            </div>
+            <div class="video">
+               <div class="thumbnail">
+                  <img
+                     src="https://i.ytimg.com/an_webp/iuS903EpycI/mqdefault_6s.webp?du=3000&sqp=CK7OrpQG&rs=AOn4CLDa7d_1q7GnlKq-RuN5S2myrZLpWA"
+                     alt="" />
+                  <!--https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg
+                                         https://i.ytimg.com/vi/76LFfbF9rmk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLADLU1GyuXZve6NtsdI2vFmDSXEtw -->
+               </div>
+
+               <div class="details">
+                  <div class="author">
+                     <img
+                        src="https://yt3.ggpht.com/ytc/AKedOLR4UEFyqiapn9HaZFy0f3rjU19ExmNRjZH-cKUsUw=s68-c-k-c0x00ffffff-no-rj"
+                        alt="" />
+                  </div>
+                  <div class="title">
+                     <h3>
+                        Newton School | Entrance Test Preparation
+                     </h3>
+                     <a href="">Kumar Nutan </a>
+                     <span> 80 Views • 2 Months Ago </span>
+                  </div>
+               </div>
+
+            </div>
+            <div class="video">
+               <div class="thumbnail">
+                  <img
+                     src="https://i.ytimg.com/an_webp/5plesRICYTI/mqdefault_6s.webp?du=3000&sqp=COKIr5QG&rs=AOn4CLA1bu2HhhjwmFPbQ0mOhD48pRLfDw"
+                     alt="" />
+                  <!--https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg
+                                            https://i.ytimg.com/vi/76LFfbF9rmk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLADLU1GyuXZve6NtsdI2vFmDSXEtw -->
+               </div>
+
+               <div class="details">
+                  <div class="author">
+                     <img
+                        src="https://yt3.ggpht.com/yti/APfAmoHC8NxHOjeRL0lPWBSxI4BrA3GdLPzzvmcR0zT8inc=s88-c-k-c0x00ffffff-no-rj-mo"
+                        alt="" />
+                  </div>
+                  <div class="title">
+                     <h3>
+                        JavaScript Learning | Open School
+                     </h3>
+                     <a href="">CodeWithHarry </a>
+                     <span> 1M Views • 5 Months Ago </span>
+                  </div>
+               </div>
+            </div>
+            <div class="video">
+               <div class="thumbnail">
+                  <img
+                     src="https://i.ytimg.com/an_webp/oD5J1a3XU48/mqdefault_6s.webp?du=3000&sqp=CKLgrpQG&rs=AOn4CLC4h1MrJ63cI7Zo8LjE6IuDCP1S0Q"
+                     alt="" />
+                  <!--https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg
+                                                https://i.ytimg.com/vi/76LFfbF9rmk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLADLU1GyuXZve6NtsdI2vFmDSXEtw -->
+               </div>
+
+               <div class="details">
+                  <div class="author">
+                     <img
+                        src="https://yt3.ggpht.com/Yy09nKUAprlICWXCB8mzYMpN788eYnwTcxbgG0gOc_yxdINpdUP4iPQK_f5r3xsjN7LIq933WQ=s68-c-k-c0x00ffffff-no-rj"
+                        alt="" />
+                  </div>
+                  <div class="title">
+                     <h3>
+                        TCS Campus Interview Preparation
+                     </h3>
+                     <a href="">Arvind Singh </a>
+                     <span> 90K Views • 3 Months Ago </span>
+                  </div>
+               </div>
+
+            </div>
+            <div class="video">
+               <div class="thumbnail">
+                  <img
+                     src="https://i.ytimg.com/vi/0icUmmd9CjQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCBqg7wMxlq9MM2oHs179bTDZSpYg"
+                     alt="" />
+                  <!--https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg
+                                                https://i.ytimg.com/vi/76LFfbF9rmk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLADLU1GyuXZve6NtsdI2vFmDSXEtw -->
+               </div>
+
+               <div class="details">
+                  <div class="author">
+                     <img
+                        src="https://yt3.ggpht.com/yti/APfAmoHC8NxHOjeRL0lPWBSxI4BrA3GdLPzzvmcR0zT8inc=s88-c-k-c0x00ffffff-no-rj-mo"
+                        alt="" />
+                  </div>
+                  <div class="title">
+                     <h3>
+                        Three Things Never Share to Anyone | Dr.APJ Kalam
+                     </h3>
+                     <a href="">Spread Positivity </a>
+                     <span> 2M Views • 1 Months Ago </span>
+                  </div>
+               </div>
+
+            </div>
+            <div class="video">
+               <div class="thumbnail">
+                  <img
+                     src="https://i.ytimg.com/vi/M4iHa7gHvNI/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCoIG425Uh_K_MVMG9UDcuppkcVPw"
+                     alt="" />
+                  <!--https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg
+                                            https://i.ytimg.com/vi/76LFfbF9rmk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLADLU1GyuXZve6NtsdI2vFmDSXEtw -->
+               </div>
+
+               <div class="details">
+                  <div class="author">
+                     <img
+                        src="https://yt3.ggpht.com/UjKc54x7sVzQ4KLlS5rgMI0DdLoaa4cFbFpsFsxLxcSXEbTWotIPvyCA63BjTddipDv8LQufiQ=s68-c-k-c0x00ffffff-no-rj"
+                        alt="" />
+                  </div>
+                  <div class="title">
+                     <h3>
+                        Fullstack Web Development | Newton School
+                     </h3>
+                     <a href="">Sidharth Maheshwari </a>
+                     <span> 5.2M Views • 9 Months Ago </span>
+                  </div>
+               </div>
+
+            </div>
+            <div class="video">
+               <div class="thumbnail">
+                  <img
+                     src="https://i.ytimg.com/vi/76LFfbF9rmk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLADLU1GyuXZve6NtsdI2vFmDSXEtw"
+                     alt="" />
+                  <!--https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg
+                                     https://i.ytimg.com/vi/76LFfbF9rmk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLADLU1GyuXZve6NtsdI2vFmDSXEtw -->
+               </div>
+
+               <div class="details">
+                  <div class="author">
+                     <img
+                        src="https://yt3.ggpht.com/yti/APfAmoHC8NxHOjeRL0lPWBSxI4BrA3GdLPzzvmcR0zT8inc=s88-c-k-c0x00ffffff-no-rj-mo"
+                        alt="" />
+                  </div>
+                  <div class="title">
+                     <h3>
+                        Fullstack Web Development | Newton School
+                     </h3>
+                     <a href="">Sushma Karpe </a>
+                     <span> 2M Views • 1 Months Ago </span>
+                  </div>
+               </div>
+
+            </div>
+
+            <div class="video">
+               <div class="thumbnail">
+                  <img
+                     src="https://i.ytimg.com/vi/sdrZoDy-o-Q/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAcA3xyNbPC_XkAx76_BDjiZohK6A"
+                     alt="" />
+                  <!--https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg
+                                 https://i.ytimg.com/vi/76LFfbF9rmk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLADLU1GyuXZve6NtsdI2vFmDSXEtw -->
+               </div>
+
+               <div class="details">
+                  <div class="author">
+                     <img
+                        src="https://yt3.ggpht.com/VI0OvMwpPQPFGoHAQOHsvtEcFWg-_YzFBhoeohr2CRz1T21Ja4unTGte1Gz6TnDUgVX9wcOG=s68-c-k-c0x00ffffff-no-rj"
+                        alt="" />
+                  </div>
+                  <div class="title">
+                     <h3>
+                        How To Invest Salary For Good Return
+                     </h3>
+                     <a href="">Arvind Chopra </a>
+                     <span> 2M Views • 1 Months Ago </span>
+                  </div>
+               </div>
+
+            </div>
+            <!-- a video Ends -->
+         </div>
+      </div>
+   </main>
+
 </body>
+
 </html>
